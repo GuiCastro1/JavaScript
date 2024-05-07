@@ -9,8 +9,8 @@
 
  if(idadeUSUARIO < 18){
         alert("tu é di menor")
- } else if(idadeUSUARIO > 18 && idadeUSUARIO < 60){
+ } else if(idadeUSUARIO >= 18 && idadeUSUARIO < 60){
     alert("tu é adulto");
-} else if(idadeUSUARIO > 60){
+} else {
     alert("tu é velho")
  }
