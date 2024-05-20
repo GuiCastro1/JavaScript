@@ -15,3 +15,14 @@ resultado = 30/2 * (1 + 30)
 
 console.log(numeros.length);
 console.log(`${resultado}`);
+
+
+var numbers = [1.9999,56.77,78.9999,320.98,45];
+
+var sum = 0;
+
+for(var i =0;i<numbers.length;i++){
+   sum+=numbers[i];
+}
+
+console.log(sum.toFixed(2));
