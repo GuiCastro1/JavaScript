@@ -11,6 +11,8 @@
 // alert(`${NOMES}`)
 
 // }
+
+const hudh = () =>{
 let NOMEDOSPARTICIPANTES = [];
 let CONFIRMAUSUARIO = "sim";
 
@@ -23,3 +25,4 @@ while (CONFIRMAUSUARIO.toLowerCase() === "sim") {
 }
 
 alert(`Participantes cadastrados:\n${NOMEDOSPARTICIPANTES.join('\n')}`);
+}
