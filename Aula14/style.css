@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 80%; /* Ajuste conforme necessário */
+    max-width: 500px; /* Ajuste conforme necessário */
+    padding: 20px;
+    background-color: #1fa2fa;
+    border-radius: 10px;
+}
