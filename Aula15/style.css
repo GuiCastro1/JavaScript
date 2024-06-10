@@ -1,0 +1,21 @@
+body {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300;
+    width: 200;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+}
